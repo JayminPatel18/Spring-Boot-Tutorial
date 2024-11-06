@@ -12,7 +12,7 @@ public class Dev {
 //    @Autowired  // field Injection
     private Laptop laptop;
     @Autowired
-    @Qualifier("laptop")
+    @Qualifier("laptop")  // it will specify the class that it can access the class
     private Computer comp;
 //
 //    // 2 create constructor
